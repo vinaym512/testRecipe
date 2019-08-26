@@ -10,14 +10,10 @@ import org.junit.runner.RunWith;
 		plugin = {"pretty", "html:target/CucumberReport"}
 		,features = "src/main/resources"
 		,glue = { "step.definition" }
-		,tags = {"@RecipePage, @ShoppingItemUpdate"}
+		,tags = {"@BookingPage"}
 		)
 
 
 public class TestRunner_QA {
 
-//	@AfterClass
-//	public static void close() {
-//		DriverUtil.quitBrowser();
-//	}
 } 
